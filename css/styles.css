@@ -85,6 +85,18 @@ margin-right: 50px;
 }
 .mail {
   margin-right: 50px;
+  align-items: center;
+}
+.mail-icon {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+}
+
+.smartphone-icon {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
 }
 .container {
   width: 1200px;
@@ -110,11 +122,26 @@ margin-right: 50px;
 }
 .contact {
   color: var(--description-font-color);
+  display: flex;
+  align-items: center;
 }
-.contact:hover,
-.contact:focus {
+.contact-list:hover .mail,
+.contact-list:focus .mail {
+  fill: var(--accent-color-link);
   color: var(--accent-color-link);
 }
+.contact-list:hover .phone,
+.contact-list:focus .phone {
+  fill: var(--accent-color-link);
+  color: var(--accent-color-link);
+}
+
+.contact:hover,
+.contact:focus {
+  fill: var(--accent-color-link);
+  color: var(--accent-color-link);
+}
+
 .modal-btn {
   padding: 10px 32px;
   font-family: var(--main-font);
