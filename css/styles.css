@@ -5,6 +5,7 @@
 --main-font-color: #212121;
 --secondary-font-color: #FFFFFF;
 --description-font-color: #757575;
+--contact-color: #757575;
 --background-color: #2F303A;
 --secondary-background-color: #F5F4FA;
 }
@@ -86,17 +87,25 @@ margin-right: 50px;
 .mail {
   margin-right: 50px;
   align-items: center;
+  color: var(--contact-color);
+}
+.mail:hover,
+.mail:focus {
+  fill: var(--accent-color-link);
+
 }
 .mail-icon {
   width: 16px;
   height: 12px;
   margin-right: 10px;
+  fill: currentColor;
 }
 
 .smartphone-icon {
   width: 10px;
   height: 16px;
   margin-right: 10px;
+  fill: currentColor;
 }
 .container {
   width: 1200px;
@@ -125,21 +134,12 @@ margin-right: 50px;
   display: flex;
   align-items: center;
 }
-.contact-list:hover .mail,
-.contact-list:focus .mail {
-  fill: var(--accent-color-link);
-  color: var(--accent-color-link);
-}
-.contact-list:hover .phone,
-.contact-list:focus .phone {
-  fill: var(--accent-color-link);
-  color: var(--accent-color-link);
-}
+
 
 .contact:hover,
 .contact:focus {
-  fill: var(--accent-color-link);
   color: var(--accent-color-link);
+  fill: var(--accent-color-link);
 }
 
 .modal-btn {
@@ -187,6 +187,10 @@ margin-right: 50px;
 
 .first-section {
   background: var(--background-color);
+  background-image: url(../images/hero-background-img.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 .first-section .container {
   padding: 200px 252px;
