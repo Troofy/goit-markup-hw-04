@@ -351,7 +351,7 @@ body {
   justify-content: space-between;
   margin-top: 16px;
 }
-.social-list-link {
+.social-list-links {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -359,8 +359,8 @@ body {
   width: 44px;
   height: 44px;
 }
-.social-list-link:hover,
-.social-list-link:focus {
+.social-list-links:hover,
+.social-list-links:focus {
   background-color: var(--accent-color-link);
 }
 .social-list-icon {
@@ -368,8 +368,8 @@ body {
   width: 20px;
   height: 20px;
 }
-.social-list-link:hover .social-list-icon,
-.social-list-link:focus .social-list-icon {
+.social-list-links:hover .social-list-icon,
+.social-list-links:focus .social-list-icon {
   fill: var(--secondary-font-color);
 }
 /* ====END TEAM==== */
