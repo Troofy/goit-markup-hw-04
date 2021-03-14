@@ -54,6 +54,9 @@ body {
   overflow: hidden;
 }
 /* ====ITEMS==== */ 
+.header {
+  border-bottom: 1px solid #ECECEC;
+}
 .header-logo {
   font-family: var(--secondary-font);
   font-weight: 700;
@@ -114,7 +117,6 @@ body {
 .header .container {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #ECECEC;
 }
 .navigation-link,
 .header-contact {
